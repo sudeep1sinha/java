@@ -30,11 +30,9 @@ public class stringArray {
             System.out.println(students[i].name + " : " + students[i].marks);
         }
 
-
-
-
-
-
+        for(Student stud : students){
+            System.out.println(stud.name + " : " + stud.marks + " : " + stud.rollno); 
+        }
 
     }
 }
