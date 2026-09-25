@@ -1,3 +1,5 @@
+import Hours_8_to_10.A;
+
 class A {
     public A(){
         System.out.println("object created");
